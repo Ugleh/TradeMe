@@ -1,0 +1,15 @@
+name: TradeMe
+version: 1.0.0
+author: Ugleh
+main: com.ugleh.trademe.TradeMe
+description: TradeMe allows two players to trade between themselves.
+permissions:
+  trademe.trade:
+    description: Gives access to trading.
+    default: true
+commands:
+  trade:
+    description: TradeMe command.
+    aliases: [trademe]
+    permission: trademe.trade
+    default: true
