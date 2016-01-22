@@ -72,6 +72,11 @@ public class CommandTrade implements CommandExecutor {
         		return false;
         	}
         	Player tradeTo = Bukkit.getPlayer(args[0]);
+        	if(tradeTo == tradeFrom)
+        	{
+        		sender.sendMessage(TradeUtils.chatPrefix + ChatColor.RED + "You can not trade yourself.");
+        		return false;
+        	}
         	if(tradeTo == null)
         	{
         		sender.sendMessage(TradeUtils.chatPrefix + ChatColor.RED + "Sorry, that player is not online.");
