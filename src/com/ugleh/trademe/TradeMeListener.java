@@ -10,6 +10,7 @@ import org.bukkit.event.inventory.InventoryClickEvent;
 //import org.bukkit.event.
 
 import com.ugleh.trademe.commands.CommandTrade;
+import com.ugleh.trademe.utils.TradeUtils;
 
 import net.md_5.bungee.api.ChatColor;
 import net.minecraft.server.v1_8_R3.PacketPlayOutChat;

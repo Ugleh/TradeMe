@@ -1,0 +1,14 @@
+trademe:
+    monodb:
+        username: 'root'
+        password: ''
+        database: 'test'
+        host: '127.0.0.1'
+        port: 27017
+    settings:
+        range: -1
+        sameword: false
+        traderequesttimer: 20
+        tradetimer: 240
+    text:
+        prefix: 'TRADE'
